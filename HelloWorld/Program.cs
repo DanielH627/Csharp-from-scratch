@@ -1,3 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.ReadLine();
+﻿using System;
+using System.Reflection.Metadata;
+
+namespace HelloWorld
+{
+    internal class NewBaseType
+    {
+        // Clase base vacía
+    }
+
+    class Program : NewBaseType
+    {
+        static void Main(string[] args)
+        {
+            const string name = "Daniel";
+            string value = $"Hello, World! {name}";
+            Console.WriteLine(value);
+            Console.WriteLine();
+        }
+    }
+}
