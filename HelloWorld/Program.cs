@@ -1,21 +1,17 @@
-﻿using System;
-using System.Reflection.Metadata;
+﻿namespace HelloWorld;
 
-namespace HelloWorld
+internal class NewBaseType
 {
-    internal class NewBaseType
-    {
-        // Clase base vacía
-    }
+    // Clase base vacía
+}
 
-    class Program : NewBaseType
+class Program : NewBaseType
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            const string name = "Daniel";
-            string value = $"Hello, World! {name}";
-            Console.WriteLine(value);
-            Console.WriteLine();
-        }
+        const string name = "Daniel";
+        string value = $"Hello, World! {name}";
+        Console.WriteLine(value);
+        Console.WriteLine();
     }
 }
