@@ -7,11 +7,10 @@ internal class NewBaseType
 
 class Program : NewBaseType
 {
-    static void Main(string[] args)
-    {
-        const string name = "Daniel";
-        string value = $"Hello, World! {name}";
-        Console.WriteLine(value);
+    static void Main() {
+        var Name = "Daniel Henao";
+        Console.WriteLine($"Hello, World! {Name}");
+        Console.WriteLine($"Thanks for coming {Name}");
         Console.WriteLine();
     }
 }
