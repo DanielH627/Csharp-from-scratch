@@ -1,4 +1,4 @@
-﻿/*
+﻿
 Console.WriteLine("Ingrese un número:");
 int num = int.Parse(Console.ReadLine());
 if (num > 0)
@@ -13,7 +13,7 @@ else
 {
     Console.WriteLine("El número es cero");
 }   
-/*End conditionals_and_operators*/
+
 
 /*Operators*/
 Console.WriteLine("Ingrese el primer número:");
